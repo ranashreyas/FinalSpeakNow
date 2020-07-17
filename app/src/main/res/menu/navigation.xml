@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:title="ABC"
+        app:showAsAction="ifRoom" />
+
+    <!--<item-->
+    <!--android:id="@+id/navigation_dashboard"-->
+    <!--android:icon="@drawable/wordlist"-->
+    <!--android:enabled="true"-->
+    <!--android:title="Alphabetic"-->
+    <!--app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/navigation_header_container"
+        android:enabled="true"
+        android:title="Suggested"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:enabled="true"
+        android:title="New Word"
+        app:showAsAction="ifRoom" />
+</menu>
