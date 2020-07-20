@@ -32,7 +32,7 @@ public class abc extends AppCompatActivity {
 
     public File entry;
     public File words;
-    String Words[][] = new String[1000][4];
+    String Words[][] =  new String[1000][4];
     public String mode = "Alphabetic";
 
     @Override
