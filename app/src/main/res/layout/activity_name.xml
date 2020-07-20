@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_light"
+    android:background="#EAEAEA"
     tools:context="Name">
 
     <TextView
@@ -12,13 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:text="What should this be called?"
         android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="16dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editText"
@@ -35,7 +35,7 @@
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="34dp"
-        android:background="@android:color/holo_green_light"
+        android:background="#D1E68F"
         android:onClick="Return"
         android:text="Save!"
         app:layout_constraintStart_toStartOf="@+id/editText"
@@ -46,7 +46,7 @@
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginStart="13dp"
-        android:background="@android:color/holo_red_light"
+        android:background="#FF9B9B"
         android:onClick="Return"
         android:text="Cancel"
         app:layout_constraintStart_toEndOf="@+id/button"

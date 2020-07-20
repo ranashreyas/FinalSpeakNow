@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_light"
+    android:background="#EAEAEA"
     tools:context="abc">
 
     <LinearLayout
@@ -221,8 +221,8 @@
                     android:id="@+id/button43"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginRight="5dp"
+                    android:layout_weight="1"
                     android:background="@drawable/rounded_button_unselected"
                     android:onClick="findWords"
                     android:text="P" />
@@ -231,9 +231,9 @@
                     android:id="@+id/button49"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
+                    android:layout_weight="1"
                     android:background="@drawable/rounded_button_unselected"
                     android:onClick="findWords"
                     android:text="Q" />
@@ -242,9 +242,9 @@
                     android:id="@+id/button59"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
+                    android:layout_weight="1"
                     android:background="@drawable/rounded_button_unselected"
                     android:onClick="findWords"
                     android:text="R" />
@@ -253,9 +253,9 @@
                     android:id="@+id/button60"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
+                    android:layout_weight="1"
                     android:background="@drawable/rounded_button_unselected"
                     android:onClick="findWords"
                     android:text="S" />
@@ -264,8 +264,8 @@
                     android:id="@+id/button61"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
                     android:background="@drawable/rounded_button_unselected"
                     android:onClick="findWords"
                     android:text="T" />
@@ -283,8 +283,8 @@
                     android:id="@+id/button62"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginRight="5dp"
+                    android:layout_weight="1"
                     android:background="@drawable/rounded_button_unselected"
                     android:onClick="findWords"
                     android:text="U" />
@@ -293,9 +293,9 @@
                     android:id="@+id/button63"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
+                    android:layout_weight="1"
                     android:background="@drawable/rounded_button_unselected"
                     android:onClick="findWords"
                     android:text="V" />
@@ -304,9 +304,9 @@
                     android:id="@+id/button64"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
+                    android:layout_weight="1"
                     android:background="@drawable/rounded_button_unselected"
                     android:onClick="findWords"
                     android:text="W" />
@@ -315,9 +315,9 @@
                     android:id="@+id/button65"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="5dp"
                     android:layout_marginRight="5dp"
+                    android:layout_weight="1"
                     android:background="@drawable/rounded_button_unselected"
                     android:onClick="findWords"
                     android:text="Y" />
@@ -326,8 +326,8 @@
                     android:id="@+id/button66"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
                     android:background="@drawable/rounded_button_unselected"
                     android:onClick="findWords"
                     android:text="Z" />
@@ -361,11 +361,11 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:background="?android:attr/windowBackground"
+        app:itemIconTint="@color/colorPrimary"
+        app:itemTextColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:itemIconTint="@color/colorPrimary"
-        app:itemTextColor="@color/colorPrimary"
         app:menu="@menu/navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
